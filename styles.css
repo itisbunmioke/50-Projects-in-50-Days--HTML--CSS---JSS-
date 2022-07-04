@@ -1,4 +1,4 @@
-@import url("@import url('@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap')')");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 2px 2px #734f90;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -26,11 +27,11 @@ body {
   height: 80vh;
   border-radius: 50px;
   color: white;
-  cursor: grab;
+  cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
-  transition: flex 0.6s ease-in;
+  transition: flex 0.3s ease-in;
 }
 
 .panel h3 {
@@ -48,6 +49,7 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 480px) {
