@@ -67,7 +67,7 @@ body {
 @media (max-width: 480px) {
   .container {
     width: 100vw;
-  }
+  /* }
 
   .panel:nth-of-type(4),
   .panel:nth-of-type(5),
@@ -77,5 +77,5 @@ body {
   .panel:nth-of-type(9),
   .panel:nth-of-type(10) {
     display: none;
-  }
+  } */
 }
